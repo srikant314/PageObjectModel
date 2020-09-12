@@ -23,7 +23,7 @@ public class FreeCrmTest {
 		System.setProperty("webdriver.chrome.driver", "/bin/chromedriver.exe");
 		driver = new ChromeDriver();
 		js = (JavascriptExecutor) driver;
-		driver.get("https://www.freecrm.com/index.html");
+		driver.get("https://ui.freecrm.com/index.html");
 	}
 
 	@Test
