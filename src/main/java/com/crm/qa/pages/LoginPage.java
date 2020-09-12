@@ -19,7 +19,7 @@ public class LoginPage extends TestBase{
 	@FindBy(name="Login")
 	WebElement loginBtn;
 	
-	@FindBy(xpath="//button[contains(text(),'Sign Up')]")
+	@FindBy(xpath='//button[@id="Login"]')
 	WebElement signUpBtn;
 	
 	@FindBy(xpath="//img[contains(@class,'img-responsive')]")
