@@ -19,7 +19,7 @@ public class LoginPage extends TestBase{
 	@FindBy(xpath="//button[contains(@class='ui fluid large blue submit button')]")
 	WebElement loginBtn;
 	
-	@FindBy(xpath("//a[@href='https://api.cogmento.com/register']")
+	@FindBy(linkText="Sign up")
 	WebElement signUpBtn;
 	
 	@FindBy(xpath="//img[contains(@class,'img-responsive')]")
